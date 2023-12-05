@@ -18,6 +18,7 @@ function render(todolist){
     
     htmlremaining.innerHTML = `You have ${sophantutronglist} pendding tasks`
     renderhtmls.innerHTML = renderhtml.join('')
+    location.reload()
 }
 
 function  gettodolist(render){
